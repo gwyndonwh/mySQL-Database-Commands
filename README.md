@@ -1,9 +1,12 @@
 # MySQL-Database-Commands
 a comprehensive cheat sheet of mysql database commands
 
-How to login into mysql from terminal
-`→ mysql -u root -p`
+#4 How to login into mysql from terminal
 -u refers to the user (root) and -p refers to the password (entered after)
+
+		→ mysql -u root -p
+		
+
 
 How to SHOW USERS
 How to CREATE USERS
