@@ -39,7 +39,7 @@ a comprehensive cheat sheet of mysql database commands
 *shows the granted privileges for the current user*   
 
 		→ SHOW GRANTS for 'user'@'localhost';
-*shows the granted privileges for target user (the quotes are necessary)*
+*shows the granted privileges for target user (the quotes are necessary)*  
 *user = target username*
 
 <br><br>
