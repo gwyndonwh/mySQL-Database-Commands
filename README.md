@@ -10,8 +10,8 @@ a comprehensive cheat sheet of mysql database commands
 *selecting all (*) from mysql.user returns all the mysql users*		
 
 ### How to CREATE USERS
-		→ CREATE USER *username* IDENTIFIED BY *password*;
-*-u refers to the user (root) and -p refers to the password (entered after)*
+		→ CREATE USER username IDENTIFIED BY password;
+*replace the username and password fields with your username and password*
 
 ### How to GRANT PRIVILEGES, Show granted privileges and remove.
 		→ mysql -u root -p
