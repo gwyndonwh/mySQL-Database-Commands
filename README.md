@@ -5,7 +5,7 @@ a comprehensive cheat sheet of mysql database commands
 
 
 		→ mysql -u root -p
-		*-u refers to the user (root) and -p refers to the password (entered after)*
+*-u refers to the user (root) and -p refers to the password (entered after)*
 		
 
 
