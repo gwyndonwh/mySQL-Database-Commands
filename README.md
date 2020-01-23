@@ -7,15 +7,24 @@ a comprehensive cheat sheet of mysql database commands
 		
 ### How to SHOW USERS
 		→ SELECT * FROM mysql.user;
-*selecting all (*) from mysql.user returns all the mysql users*		
+*returns all the current mysql users*		
 
 ### How to CREATE USERS
 		→ CREATE USER username IDENTIFIED BY password;
-*replace the username and password fields with your username and password*
+*creates a new blank user
+username = new username
+password = new user's password*
 
 ### How to GRANT PRIVILEGES, Show granted privileges and remove.
-		→ mysql -u root -p
-*-u refers to the user (root) and -p refers to the password (entered after)*
+		→ GRANT privilege
+		  ON object
+		  TO target
+		  [WITH GRANT OPTION];
+*grant a privilege for a part of the sql to a user or group
+privilege = the privilege you wish to grant
+object	  = the sql object youre granting permission for (database, table, etc)
+target	  = who youre granting the privilege to (single user, all users with a role, etc)
+[WITH GRANT OPTION] allows the user to grant privileges to other users*
 
 ### How to SHOW, DELETE & CREATE DATABASES & SELECT DATABASES
 		→ mysql -u root -p
