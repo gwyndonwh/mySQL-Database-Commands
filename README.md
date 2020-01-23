@@ -14,9 +14,7 @@ a comprehensive cheat sheet of mysql database commands
 ### How to CREATE USERS
 		→ CREATE USER username IDENTIFIED BY password;
 *creates a new blank user*
-
 *username = new username*
-
 *password = new user's password*
 
 
