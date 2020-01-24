@@ -40,14 +40,14 @@ a comprehensive cheat sheet of mysql database commands
 
 		→ SHOW GRANTS for 'user'@'localhost';
 *shows the granted privileges for target user (the quotes are necessary)*  
-*user = target username*
+*user = target username*  
 
 <br><br>
 
 ### How to REMOVE PRIVILEGES
 		→ REVOKE privilege
 		  ON object
-		  FROM target
+		  FROM target;
 *remove a privilege for a part of the sql from a user or group*  
 *privilege = the privilege you wish to grant*  
 *object	   = the sql object youre granting permission for (database, table, etc)*  
@@ -55,9 +55,27 @@ a comprehensive cheat sheet of mysql database commands
 
 <br><br>
 
-### How to SHOW, DELETE & CREATE DATABASES & SELECT DATABASES
-		→ mysql -u root -p
-*-u refers to the user (root) and -p refers to the password (entered after)*
+### How to CREATE DATABASES
+		→ CREATE DATABASE database_name;
+*creates a new database titled database_name*
+
+<br><br>
+
+### How to SHOW DATABASES
+		→ SHOW DATABASES;
+*shows all current databases in mysql*
+
+<br><br>
+
+### How to SELECT DATABASES
+		→ USE database_name;
+*sets your active database to the database titled database_name*
+
+<br><br>
+
+### How to DELETE DATABASES
+		→ DROP DATABASE database_name;
+*deletes the database titled database_name*
 
 <br><br>
 
