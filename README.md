@@ -39,7 +39,7 @@ a comprehensive cheat sheet of mysql database commands
 *shows the granted privileges for the current user*   
 
 		→ SHOW GRANTS for 'user'@'localhost';
-*shows the granted privileges for target user (the quotes are necessary)*  
+*shows the granted privileges for target user*  
 *user = target username*  
 
 <br>
@@ -91,15 +91,21 @@ a comprehensive cheat sheet of mysql database commands
 
 <br><br>
 
-### How to DELETE Tables
-
-<br><br>
-
 ### How to SHOW Tables
+		→ SHOW TABLES;
+*shows all the tables in the selected database*  
 
 <br><br>
 
-### How to DROP Tables
+### How to DESCRIBE Tables
+		→ DESCRIBE table_name;
+*shows the column structure of the described table*  
+
+<br><br>
+
+### How to DELETE Tables
+		→ DROP TABLE table_name;
+*deletes the table from the database along with the data inside*
 
 <br><br>
 
