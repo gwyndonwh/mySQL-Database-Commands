@@ -109,17 +109,39 @@ a comprehensive cheat sheet of mysql database commands
 
 <br><br>
 
-### How to Insert ROWS & RECORDS (single and multiple)
+### How to Insert RECORD (single)
+		→ INSERT INTO table_name (column1, column2, column3)
+		  VALUES ('value1', 'value2', 'value3');
+*inserts a single row of values into target columns in table_name*
+
+<br><br>
+
+### How to Insert RECORDS (multiple)
+		→ INSERT INTO table_name (column1, column2, column3)
+		  VALUES ('value1', 'value2', 'value3'),
+		  	 ('value1', 'value2', 'value3'),
+			 ('value1', 'value2', 'value3');
+*inserts a three rows of values into target columns in table_name*
 
 <br><br>
 
 ### How to SELECT with the WHERE Clause
+		→ SELECT * FROM table_name WHERE column1 = 'value1';
+*displays the rows where column1 is equal to the value of value1*
 
 <br><br>
 
 ### How to SELECT with the WHERE Clause using a range
+		→ SELECT * FROM table_name WHERE column1 BETWEEN 10 AND 15;
+*displays the rows where column1 is 10, 11, 12, 13, 14 or 15*
+
+<br><br>
 
 ### How to DELETE an individual ROW
+		→ DELETE FROM table_name WHERE column1 = 'value1';
+*deletes the rows where column1 is equal to the value of value1*
+
+<br><br>
 
 ### How to UPDATE a ROW
 
